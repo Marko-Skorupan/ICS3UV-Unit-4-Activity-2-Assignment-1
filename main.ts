@@ -6,11 +6,14 @@
  */
 
 // variables
-let startString: string = prompt("Enter an integer for the start of the range: ") || "0";
-let endString: string = prompt("Enter an integer for the end of the range: ") || "0";
+const startString: string =
+  prompt("Enter an integer for the start of the range: ") || "0";
+const endString: string =
+  prompt("Enter an integer for the end of the range: ") ||
+  "0";
 
-let start: number = parseInt(startString);
-let end: number = parseInt(endString);
+const start: number = parseInt(startString);
+const end: number = parseInt(endString);
 
 let sumInside: number = 0;
 let sumOutside: number = 0;
